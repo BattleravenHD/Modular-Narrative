@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4198703549358152044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: Stranger
+  phaseImage: {fileID: 0}
+  phaseText: Stranger
+  showResultNextBeat: 0
+  storyPhasePrerequisites: []
+  choices: []
+  statsToChange: []
+  IsRoot: 0
+  guid: 26c567ca59f560e4ba288b3555920dca
+  postion: {x: 856, y: -29}
+--- !u!114 &-1373411036171040325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: Hello There
+  phaseImage: {fileID: 21300000, guid: 62ce01ddca719d34ea9648c586a7cc94, type: 3}
+  phaseText: Hello There
+  showResultNextBeat: 1
+  storyPhasePrerequisites: []
+  choices:
+  - {fileID: 5879545889084390701}
+  statsToChange: []
+  IsRoot: 1
+  guid: 28791e533272d984680740a3d6f91ba6
+  postion: {x: 410.55005, y: 121.90001}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233b9fd6829dadf4bbdbf807b568cca4, type: 3}
+  m_Name: Hello
+  m_EditorClassIdentifier: 
+  storysegmentName: New Story
+  StartingPhase: {fileID: -1373411036171040325}
+  phases:
+  - {fileID: -1373411036171040325}
+  - {fileID: 5879545889084390701}
+  - {fileID: -4198703549358152044}
+--- !u!114 &5879545889084390701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: General Kenobi
+  phaseImage: {fileID: 0}
+  phaseText: 
+  showResultNextBeat: 0
+  storyPhasePrerequisites: []
+  choices:
+  - {fileID: -4198703549358152044}
+  statsToChange: []
+  IsRoot: 0
+  guid: 9bc2aa7b4da88ad4099f45ad7826cb7d
+  postion: {x: 665, y: 226}
