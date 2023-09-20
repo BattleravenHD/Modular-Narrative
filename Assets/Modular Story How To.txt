@@ -1,0 +1,29 @@
+How to use the Editor:	
+To open the story tree editor along the toolbar at the top click on window and select StoryTreeEditorWindow. This will not do anything without a story base selected.
+To create a story base, in the asset folder right click and go to create, story items and then StoryBase. 
+With a story base selected in the inspector go back to the Story Tree Window. 
+To create a new story phase right click on the graph area and select new phase. The first phase created will be the root phase of the story and will not have a last phase input area. All other phases will have this. Should you delete the root phase it will jump to the first phase it is linked to. Should there be no linked phases the next created phase will become the root. Without a root the story will not play. 
+To link two phases together you click on the small circle on next to the words next/last and drag the line to an opposing circle (eg last to next). This links the story phases together. Multiple next’s can lead to one last and a next can create many links.
+To delete a link between two phases, select the link and hit the DEL key. 
+To delete a phase select it and hit DEL. 
+
+Phase inspector.
+When in the Story Tree editor selecting a story phase will display it on the left of the graph. This displays the Phase name, an image to display, the text associated with the phase and stat items underneath. 
+The Phase name is displayed at the top of the story phase when it is displayed, it is also what the phase is called in the inspector and if it is a decision, it is also displayed as the decision text. 
+The Phase image is displayed behind the text when the phase is displayed. 
+The phase text is displayed when the phase is displayed.
+The tick box for Show results next beat stops the normal game flow by displaying the player choice and its phase directly after they make the decision. This is useful when you want a choice to show its consequences immediately. 
+Story Phase Prerequisites is a list of specialised stats. These are broken down into 3 areas. 
+Fist the stat itself. This is a scriptable object that allows other scripts to reference a specific stat. To create one right click in the project window and go create, StoryItems, Stat. 
+Second area is the bounds. This is how high/low can the stat be for the phase to happen. Upper bound is the most Inclusive. Lower is the least amount the stat can be Inclusive. 
+Is choice determines at which point the phase stats are checked. If ticked when the phase is an option of another phase if the stat requirements are not true the option will be greyed out and the player will be unable to pick the story line as an option. If unchecked it will only serve as a check to fire during the random selection process for a new phase.
+Stats to change is a list of stats to change and their values. It is made up of the stat and a value to add to the stat so to subtract from a value it must be negative. 
+
+
+Story Runner. 
+The story runner is made up of many parts but the most important are the main story line, random story lines, current stats, and the fallback story.
+The main story lines are a list of StoryBase’s that are the main story. These will happen with priority over the random storys so it is best to have them gatekept behind a turn system or in the examples case it has a stat called days which serves this function. 
+Radom story lines is a list of StoryBases that play at random it will check to see if it can play the current phase else it will try another story line.
+Current stats is a list of all of the current s stats for the player and there value.
+Fallback story is important. Should the game not find any story in which to play it will show this one so it must exist. 
+Inside storyrunner is a Int called CHECKLIMIT. This stat controls how many storys at max the runner will check before defaulting to fallback. 

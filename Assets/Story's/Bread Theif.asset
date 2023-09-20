@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8957579180195727862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: Let heads roll
+  phaseImage: {fileID: 21300000, guid: 65bdd6f8310870247867a9d69fd7c346, type: 3}
+  phaseText: The day has come for the excecution of the bread thief. The gallows
+    has been readied and your seating overlooks the crowd. The would be thief looks
+    out over the crowd tears runing down his face. A small gorup begin to push through
+    the crowd towards the platfrom. Two small children rush up just as the man drops.
+    A woman puts her hands over the eyes of the children turning away. As you get
+    up to leave a rock hits next to your head. Turning around you gaze upon the same
+    woman as she is run through by one of your guards as you are rushed away. As
+    you leave behind in the crowd a small boy glears at your receding party...
+  showResultNextBeat: 0
+  storyPhasePrerequisites: []
+  choices: []
+  statsToChange: []
+  IsRoot: 0
+  guid: e135a575ad5789c4db45e8f7da6999da
+  postion: {x: 1128, y: -153}
+--- !u!114 &-4665390849618227725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: An encounter
+  phaseImage: {fileID: 21300000, guid: 7d93652188fffcd47bdc8c35cfd55a9d, type: 3}
+  phaseText: 'Much time has passed since your decision on the case of the thief.
+    As you are paraded through the street by your guards a sight catches your eye.
+    A grouping of boddies slumped up against a wall. Boards in their hands. "The
+    king may forgive, but we will not". The message carved into the boards. The face
+    of the man you pardoned stares back at you. The empty sockets gazing into your
+    soul. '
+  showResultNextBeat: 0
+  storyPhasePrerequisites: []
+  choices: []
+  statsToChange:
+  - stat: {fileID: 11400000, guid: 47dd78ee17e52d14da6d6aafae615310, type: 2}
+    value: -10
+  - stat: {fileID: 11400000, guid: 51806edc48d0e3e458f9488b19d521d9, type: 2}
+    value: 10
+  IsRoot: 0
+  guid: a212ad136d928d94ea27441102af250d
+  postion: {x: 1015, y: 277}
+--- !u!114 &-4079076681956726765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: A public whipping
+  phaseImage: {fileID: 21300000, guid: 7d93652188fffcd47bdc8c35cfd55a9d, type: 3}
+  phaseText: A public whipping will give the nobels the spectacle they want while
+    not killing a man trying to protect his family. An apt comprimise.
+  showResultNextBeat: 0
+  storyPhasePrerequisites: []
+  choices:
+  - {fileID: -3954621449087221032}
+  statsToChange:
+  - stat: {fileID: 11400000, guid: 47dd78ee17e52d14da6d6aafae615310, type: 2}
+    value: 5
+  - stat: {fileID: 11400000, guid: 51806edc48d0e3e458f9488b19d521d9, type: 2}
+    value: -5
+  - stat: {fileID: 11400000, guid: afd282f8f1d6c1a40b2b711b1827b1fd, type: 2}
+    value: 5
+  IsRoot: 0
+  guid: 7dfb36fd8b169074ca908ba5a7c58354
+  postion: {x: 1321, y: -24}
+--- !u!114 &-3954621449087221032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: A Hard Lash
+  phaseImage: {fileID: 21300000, guid: 65bdd6f8310870247867a9d69fd7c346, type: 3}
+  phaseText: The date of the bread thiefs public whipping has arived. The man endures
+    10 lashes from a hard leather whip with metal studs on the ends. The sound echoed
+    through the square as a nearvous group stand at the edge of the circle watining
+    for it to end. As the finial lashing is dealt you begin to leave. In the distance
+    the group embraces the man, now free of his punishment.
+  showResultNextBeat: 0
+  storyPhasePrerequisites: []
+  choices: []
+  statsToChange: []
+  IsRoot: 0
+  guid: 085d6f0ff955ec149ac789160412c7ca
+  postion: {x: 1593, y: -17}
+--- !u!114 &-3262448511426661274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: Life In Prison
+  phaseImage: {fileID: 21300000, guid: 7d93652188fffcd47bdc8c35cfd55a9d, type: 3}
+  phaseText: The dungon exists for a reason. Throw them in and let them rot for their
+    choice. The nobel might not be too happy but it is by your will he serves. The
+    man crys out for his family as he is dragged away.
+  showResultNextBeat: 0
+  storyPhasePrerequisites: []
+  choices: []
+  statsToChange:
+  - stat: {fileID: 11400000, guid: 47dd78ee17e52d14da6d6aafae615310, type: 2}
+    value: 5
+  - stat: {fileID: 11400000, guid: 51806edc48d0e3e458f9488b19d521d9, type: 2}
+    value: -5
+  - stat: {fileID: 11400000, guid: afd282f8f1d6c1a40b2b711b1827b1fd, type: 2}
+    value: 5
+  IsRoot: 0
+  guid: 4598e6ed69458fe4799cb30ac08534e1
+  postion: {x: 1324, y: 151}
+--- !u!114 &-892196925422023865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: The Bread Thief
+  phaseImage: {fileID: 21300000, guid: 7d93652188fffcd47bdc8c35cfd55a9d, type: 3}
+  phaseText: It would seem that a local bakery has had some trobble with a thief.
+    This issue would usally not reach your ears were it not for the Nobel patron
+    of the bakery. He advises to make an example out of the thief and sentance her
+    to a public excecution. Before you kneels the culprit begging for their life.
+    Claims of a starving family are presented.
+  showResultNextBeat: 1
+  storyPhasePrerequisites:
+  - statToCheck: {fileID: 11400000, guid: 31fda9e357866d74c838c52c700b6c66, type: 2}
+    upperBound: 10
+    lowerBound: 0
+    isChoicePrereq: 0
+  choices:
+  - {fileID: -552179697285674118}
+  - {fileID: 6010911959266826026}
+  - {fileID: 4043430933074437260}
+  statsToChange: []
+  IsRoot: 1
+  guid: e336d102adbe5b14d988514289817117
+  postion: {x: 574, y: 93}
+--- !u!114 &-552179697285674118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: Let Go
+  phaseImage: {fileID: 21300000, guid: 7d93652188fffcd47bdc8c35cfd55a9d, type: 3}
+  phaseText: While the citizen did commit a crime the punishment does not fit the
+    crime. While it may upset the nobel you inform the begging pesant of your decision.
+    He looks up tears of joy in their eyes as they are taken away.
+  showResultNextBeat: 0
+  storyPhasePrerequisites: []
+  choices:
+  - {fileID: -4665390849618227725}
+  statsToChange:
+  - stat: {fileID: 11400000, guid: afd282f8f1d6c1a40b2b711b1827b1fd, type: 2}
+    value: -15
+  IsRoot: 0
+  guid: b4ee281610f4cc9458a6f11144610c69
+  postion: {x: 844, y: 274}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233b9fd6829dadf4bbdbf807b568cca4, type: 3}
+  m_Name: Bread Theif
+  m_EditorClassIdentifier: 
+  storysegmentName: Bread Theif
+  StartingPhase: {fileID: -892196925422023865}
+  phases:
+  - {fileID: -892196925422023865}
+  - {fileID: -552179697285674118}
+  - {fileID: -4665390849618227725}
+  - {fileID: 6010911959266826026}
+  - {fileID: 4043430933074437260}
+  - {fileID: -8957579180195727862}
+  - {fileID: -4079076681956726765}
+  - {fileID: -3262448511426661274}
+  - {fileID: -3954621449087221032}
+--- !u!114 &4043430933074437260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: Very well. Off with their head
+  phaseImage: {fileID: 21300000, guid: 7d93652188fffcd47bdc8c35cfd55a9d, type: 3}
+  phaseText: 'This is an issue that should have not even made it to your ears. An
+    example will be useful not only to the pesants giving them a good reason not
+    to steal, but for the security forces to just deal with these things themselves. '
+  showResultNextBeat: 0
+  storyPhasePrerequisites: []
+  choices:
+  - {fileID: -8957579180195727862}
+  statsToChange:
+  - stat: {fileID: 11400000, guid: afd282f8f1d6c1a40b2b711b1827b1fd, type: 2}
+    value: 10
+  - stat: {fileID: 11400000, guid: 51806edc48d0e3e458f9488b19d521d9, type: 2}
+    value: 5
+  - stat: {fileID: 11400000, guid: 47dd78ee17e52d14da6d6aafae615310, type: 2}
+    value: -5
+  IsRoot: 0
+  guid: 694a8220c9ee27f45b8a08c3f405ac05
+  postion: {x: 822, y: -131}
+--- !u!114 &6010911959266826026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: Maybe a lighter punishment
+  phaseImage: {fileID: 21300000, guid: 7d93652188fffcd47bdc8c35cfd55a9d, type: 3}
+  phaseText: While you do not belive that a crime should go unpunished, the death
+    penalty seems to be a step too far. But what to do?
+  showResultNextBeat: 1
+  storyPhasePrerequisites: []
+  choices:
+  - {fileID: -4079076681956726765}
+  - {fileID: -3262448511426661274}
+  statsToChange: []
+  IsRoot: 0
+  guid: aa308bee9730f014e959ad4930e31246
+  postion: {x: 1021, y: 73}

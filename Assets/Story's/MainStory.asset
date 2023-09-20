@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8193901437090421859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: A New Era
+  phaseImage: {fileID: 21300000, guid: 3668e7afe2d8a394cb3428d81b11d401, type: 3}
+  phaseText: "Arise Theodiric first of his name. May your rien bring prosperity to
+    all you rule over. May the heavans and lord above bless you and may he be merciful.
+    \n\nOn this day I proclaim you Theodiric the 1st.\n\nYou arise the king of your
+    realm. After the passing of your father it is now your turn to take up the mantle
+    of the kingdom as its sovereign. It will be up to you to lead your nation through
+    the troubling times brewing ahead of you. "
+  showResultNextBeat: 1
+  storyPhasePrerequisites:
+  - statToCheck: {fileID: 11400000, guid: 31fda9e357866d74c838c52c700b6c66, type: 2}
+    upperBound: 1
+    lowerBound: 0
+    isChoicePrereq: 0
+  choices:
+  - {fileID: -2446484834660963948}
+  statsToChange: []
+  IsRoot: 1
+  guid: 4d0bc8e92903ae44a961cd98b410a64d
+  postion: {x: 0, y: 0}
+--- !u!114 &-7172322737034821224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: A Nobel Man
+  phaseImage: {fileID: 21300000, guid: 6895307029b2c7d4199f85b97661beaa, type: 3}
+  phaseText: 'The nobels have helped lead the realm for aslong as there has been
+    a realm. Picking one from amongst their ranks may prove to be the best choice
+    for ensuring stability in the realm. '
+  showResultNextBeat: 0
+  storyPhasePrerequisites: []
+  choices:
+  - {fileID: 7677734003274745086}
+  statsToChange:
+  - stat: {fileID: 11400000, guid: 4552d88c759015f46930d9a41049cb44, type: 2}
+    value: -10
+  - stat: {fileID: 11400000, guid: 8c5591d988e868e43953638af90e1d2e, type: 2}
+    value: -10
+  - stat: {fileID: 11400000, guid: fde977c07ad2da74197cee76b9e98c52, type: 2}
+    value: -10
+  - stat: {fileID: 11400000, guid: d15852fb7049ff84bb251d9336f64211, type: 2}
+    value: -10
+  - stat: {fileID: 11400000, guid: afd282f8f1d6c1a40b2b711b1827b1fd, type: 2}
+    value: 10
+  - stat: {fileID: 11400000, guid: 51806edc48d0e3e458f9488b19d521d9, type: 2}
+    value: 20
+  IsRoot: 0
+  guid: 9a26c4166dc49da49bef4f4fdbee4127
+  postion: {x: 528.25757, y: -236.6775}
+--- !u!114 &-4963245321909771677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: A member of the Clergy
+  phaseImage: {fileID: 21300000, guid: 6895307029b2c7d4199f85b97661beaa, type: 3}
+  phaseText: 'By God and faith you will rule the country and a man of the church
+    is someone who can bring about this vision. '
+  showResultNextBeat: 0
+  storyPhasePrerequisites: []
+  choices:
+  - {fileID: 7677734003274745086}
+  statsToChange:
+  - stat: {fileID: 11400000, guid: 4552d88c759015f46930d9a41049cb44, type: 2}
+    value: 10
+  - stat: {fileID: 11400000, guid: 8c5591d988e868e43953638af90e1d2e, type: 2}
+    value: 20
+  - stat: {fileID: 11400000, guid: fde977c07ad2da74197cee76b9e98c52, type: 2}
+    value: -10
+  - stat: {fileID: 11400000, guid: d15852fb7049ff84bb251d9336f64211, type: 2}
+    value: -10
+  - stat: {fileID: 11400000, guid: afd282f8f1d6c1a40b2b711b1827b1fd, type: 2}
+    value: -10
+  - stat: {fileID: 11400000, guid: 51806edc48d0e3e458f9488b19d521d9, type: 2}
+    value: -10
+  IsRoot: 0
+  guid: e3878076558d2764c89b068261eb71f7
+  postion: {x: 514, y: -75.399994}
+--- !u!114 &-4930179482010060265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: A Military advisor
+  phaseImage: {fileID: 21300000, guid: 6895307029b2c7d4199f85b97661beaa, type: 3}
+  phaseText: 'The military are the true power behind the throne and without their
+    support you goals and quite possibly your life would be forfit. An advisor from
+    amongst their ranks would safeguard you. For a while at least. '
+  showResultNextBeat: 0
+  storyPhasePrerequisites: []
+  choices:
+  - {fileID: 7677734003274745086}
+  statsToChange:
+  - stat: {fileID: 11400000, guid: 4552d88c759015f46930d9a41049cb44, type: 2}
+    value: -10
+  - stat: {fileID: 11400000, guid: 8c5591d988e868e43953638af90e1d2e, type: 2}
+    value: -10
+  - stat: {fileID: 11400000, guid: fde977c07ad2da74197cee76b9e98c52, type: 2}
+    value: 10
+  - stat: {fileID: 11400000, guid: d15852fb7049ff84bb251d9336f64211, type: 2}
+    value: 20
+  - stat: {fileID: 11400000, guid: afd282f8f1d6c1a40b2b711b1827b1fd, type: 2}
+    value: -10
+  - stat: {fileID: 11400000, guid: 51806edc48d0e3e458f9488b19d521d9, type: 2}
+    value: -10
+  IsRoot: 0
+  guid: c060c56aaae1c6e4c8cd0e8fe314ff15
+  postion: {x: 522, y: 92}
+--- !u!114 &-2743294838721511401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: A Common man
+  phaseImage: {fileID: 21300000, guid: 6895307029b2c7d4199f85b97661beaa, type: 3}
+  phaseText: 'None of the estates are loyal. They have ploted and schemed for decades
+    and they will take control if givin the chance. The only option is to promote
+    a commoner loyal to the crown alone to the post. Let the other estates simmer. '
+  showResultNextBeat: 0
+  storyPhasePrerequisites: []
+  choices:
+  - {fileID: 7677734003274745086}
+  statsToChange:
+  - stat: {fileID: 11400000, guid: 4552d88c759015f46930d9a41049cb44, type: 2}
+    value: -20
+  - stat: {fileID: 11400000, guid: 8c5591d988e868e43953638af90e1d2e, type: 2}
+    value: -10
+  - stat: {fileID: 11400000, guid: 47dd78ee17e52d14da6d6aafae615310, type: 2}
+    value: 30
+  - stat: {fileID: 11400000, guid: fde977c07ad2da74197cee76b9e98c52, type: 2}
+    value: -20
+  - stat: {fileID: 11400000, guid: d15852fb7049ff84bb251d9336f64211, type: 2}
+    value: -10
+  - stat: {fileID: 11400000, guid: afd282f8f1d6c1a40b2b711b1827b1fd, type: 2}
+    value: -20
+  - stat: {fileID: 11400000, guid: 51806edc48d0e3e458f9488b19d521d9, type: 2}
+    value: -10
+  IsRoot: 0
+  guid: 4e3b8db4802fa0c439a342cffbc7e807
+  postion: {x: 524, y: 240.08002}
+--- !u!114 &-2446484834660963948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: A choice of Councillor
+  phaseImage: {fileID: 21300000, guid: 63a3c970a23126b4bbeb1ae6523b699a, type: 3}
+  phaseText: "As you make your leave of the chapel one of your fathers advisors,
+    now your own, aproach. \n\"Hello Your highness. I served your father as high
+    Prime Minister and while you will continue to be surrounded by advisors and ministers
+    ultimately only one can serve as your Prime Minister. Whoever you pick will weild
+    much power. So the choice will have a large effect on your rien.\""
+  showResultNextBeat: 1
+  storyPhasePrerequisites: []
+  choices:
+  - {fileID: -7172322737034821224}
+  - {fileID: -4963245321909771677}
+  - {fileID: -4930179482010060265}
+  - {fileID: -2743294838721511401}
+  statsToChange: []
+  IsRoot: 0
+  guid: b96bf7dc40241e0468298ab429ae9ded
+  postion: {x: 231, y: -21}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233b9fd6829dadf4bbdbf807b568cca4, type: 3}
+  m_Name: MainStory
+  m_EditorClassIdentifier: 
+  storysegmentName: Main Story
+  StartingPhase: {fileID: -8193901437090421859}
+  phases:
+  - {fileID: -8193901437090421859}
+  - {fileID: -2446484834660963948}
+  - {fileID: -7172322737034821224}
+  - {fileID: -4963245321909771677}
+  - {fileID: -4930179482010060265}
+  - {fileID: -2743294838721511401}
+  - {fileID: 7677734003274745086}
+--- !u!114 &7677734003274745086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76848a9e083882b4c921c1da81805187, type: 3}
+  m_Name: NewPhase
+  m_EditorClassIdentifier: 
+  phaseName: A new day
+  phaseImage: {fileID: 0}
+  phaseText: 
+  showResultNextBeat: 0
+  storyPhasePrerequisites:
+  - statToCheck: {fileID: 11400000, guid: 31fda9e357866d74c838c52c700b6c66, type: 2}
+    upperBound: 5
+    lowerBound: 5
+    isChoicePrereq: 0
+  choices: []
+  statsToChange: []
+  IsRoot: 0
+  guid: 17a0621a4a22351429814d789da9024a
+  postion: {x: 841.06494, y: -9.287501}
